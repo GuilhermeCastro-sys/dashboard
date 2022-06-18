@@ -2,9 +2,10 @@ package com.dashboard.vendas.dto;
 
 import com.dashboard.vendas.entities.Sale;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public class SaleDTO {
+public class SaleDTO implements Serializable {
 
     private Long integer;
     private Integer visited;
